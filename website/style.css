@@ -1,13 +1,21 @@
-h1, h2,h3{
+h1, h2,h3,h4,h5{
 	color: #17D0C2;
 	text-align: center;
 	font-size: 50px;
-	border: 5px solid;
+	
+	margin-bottom: : 0;
+	padding : 20px;
+
 	/*
 	display: inline;
 	margin-right: auto;
 	margin-left: auto;
 	*/
+}
+h1 span, h2 span, h3 span,h4 span,h5 span{
+	border: 5px dashed #20bcd5;
+	border-radius: 20px;
+	padding: 10px;
 }
 p{
 	font-family: 'Dancing Script', cursive;
@@ -43,5 +51,70 @@ p #link_2{
 	text-align: right;
 }
 table{
+	width: 100%;
 	text-align: center;
+	font-size: 11pt;
+}
+table,tr,td{
+border: 2px solid #cecece;
+border-collapse: collapse;
+text-align: center;
+table-layout: fixed;
+}
+.selected{
+	background-color: #f36f48;
+	color: white;
+}
+.days{
+font-size: 30px;
+font-weight: bold;
+color: #800000;
+background-color: #00FA9A;
+}
+.time{
+font-size: 20px;
+font-weight: bold;
+color: #000080;
+background-color: #00FF00;
+}
+h4{
+	margin-bottom: : 0;
+	padding-bottom: : 0;
+}
+form{
+	text-align:  center;
+	margin-top: 0;
+	padding-top: 0;
+}
+.submit{
+	background-color: #3fb6b2;
+	color: white;
+	font-weight: bold;
+	border: none;
+	cursor: pointer;
+	outline: none;
+	font-size: 20px;
+	padding: 12px 45px;
+	border-radius: 5px;
+}
+.submit:hover{
+	background-color: #43a09d;
+}
+textarea{
+	height: 100px;
+	margin: 0;
+	padding: 0;
+}
+input,textarea{
+	width: 15%;
+	background-color: #efefef;
+	outline: none;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border-radius: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-overflow: center;
+	border: 1px solid;
+	
 }

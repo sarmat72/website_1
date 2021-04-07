@@ -10,18 +10,18 @@
 	<p>Еще один параграф текста</p>
 	<p>Здесь <br/>перенос строки.</p>
 -->
-	<h1>About Me</h1>
+	<h1><span>About Me</span></h1>
 	<img src="hawaii-015.jpg" alt="hawaii-15_island">
-	<h2>My Skills</h2>
+	<h2><span>My Skills</span></h2>
 	<ol>
 		<li>C++</li>
 		<li>HTML</li>
 		<li>CSS</li>
 		<li>JavaScript</li>
 	</ol>
-	<h3>My Coding Shedule</h3>
+	<h3><span>My Coding Shedule</span></h3>
 	<table >
-		<tr>
+		<tr class="days">
 			<td> Day </td>
 			<td> Monday </td>
 			<td> Tuesday </td>
@@ -30,52 +30,73 @@
 			<td> Friday </td>
 		</tr>
 		<tr>
-			<td> 8 - 8:30 </td>
-			<td > Learn </td>
+			<td class="time"> 8 - 8:30 </td>
+			<td class="selected"> Learn </td>
 			<td>  </td>
 			<td >  </td>
 			<td>  </td>
 			<td >  </td>
 		</tr>
 		<tr>
-			<td> 9 - 10 </td>
+			<td class="time"> 9 - 10 </td>
 			<td >   </td>
-			<td> Practice </td>
+			<td class="selected"> Practice </td>
 			<td >   </td>
 			<td>   </td>
 			<td >   </td>
 		</tr>
 		<tr>
-			<td> 13 - 13:30 </td>
+			<td class="time"> 13 - 13:30 </td>
 			<td >   </td>
 			<td>   </td>
-			<td > Play </td>
+			<td class="selected"> Play </td>
 			<td>   </td>
 			<td >   </td>
 		</tr>
 		<tr>
-			<td> 15:45 - 17 </td>
+			<td class="time"> 15:45 - 17 </td>
 			<td >   </td>
 			<td>   </td>
 			<td >   </td>
-			<td> Code </td>
+			<td class="selected"> Code </td>
 			<td >   </td>
 		</tr>
 		<tr>
-			<td> 18 - 18:15 </td>
+			<td class="time"> 18 - 18:15 </td>
 			<td >   </td>
 			<td>   </td>
 			<td >   </td>
 			<td>   </td>
-			<td > Discuss </td>
+			<td class="selected"> Discuss </td>
 		</tr>
 	</table>	
+
 	
-	<h4>Header 4</h4>
-	<h5>Header 5</h5>
 	<h6>Header 6</h6>	
 	<p id="link_1">	<a href="https://kahoot.it/">Переход в kahoot</a></p>	
 	<p id="link_2"><a href="https://yandex.ru/news/?utm_source=main_stripe_big">Переход в yandex.news</a></p>
 	
+	<form>
+		<input type="radio" name="gender" value="male">
+		Мужской
+		<br>
+		<input type="radio" name="gender" value="female">
+		Женский
+	</form>
+
+	<form>
+		<input type="submit" value="Send">
+	</form>
+
+<h4><span>Contact Me</span></h4>
+<form>
+		<input type="text" name="name" placeholder="name"><br>
+		<input type="email" name="email" placeholder="email"><br>
+		<textarea name="comment" placeholder="comment"></textarea><br>
+		<input type="submit" value="Send" class="submit">
+	</form>
+
+<h5><span>My Media</span></h5>
+
 </body>
 </html>
